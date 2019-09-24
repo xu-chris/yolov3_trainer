@@ -1,7 +1,9 @@
 # GIT REPO SPECIFIC
 # Avoid pushing my model ;)
-model/*
-!model/.gitkeep
+source/*
+!source/.gitkeep
+dist/*
+!dist/.gitkeep
 
 # GITHUB STANDARD GITIGNORE
 # Byte-compiled / optimized / DLL files
