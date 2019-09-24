@@ -267,4 +267,4 @@ if __name__ == '__main__':
     parser.add_argument('-b', '--bottleneck', action="store_true", help='Removes the bottleneck file')
     args = parser.parse_args()
 
-    main(args.input_path, args.output_path, 'door', args.bottleneck)
+    main(args.input_path, args.output_path, 'dist', args.bottleneck)
